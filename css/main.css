@@ -1,0 +1,63 @@
+.hero-image{
+    background-image: url("images/griot-hero-image.jpg");
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+    
+}
+
+.center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.container-fluid{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.detail-wrapper{
+    color: black;
+    text-align: left;
+}
+.btn-primary{
+    align-items:center;
+    background-color: orange;
+    border-color: orange;
+}
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 3px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .container-fluid .row{
+    background-color: white;
+  }
+  .container-fluid .row .hero-image{
+    background-color: black;
+  }
+
+  .bottom-wrapper{
+    height: 200px;
+    display: flex;
+    flex-direction: row;    
+    text-align: right;
+    position: relative;
+    background-color: black;
+  }
+  
+  .end-wrapper{
+    color: white;
+    text-align: left;
+    font-size: 50%;
+    background-color: black;
+  }
